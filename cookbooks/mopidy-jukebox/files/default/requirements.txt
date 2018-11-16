@@ -8,35 +8,35 @@
 -e mopidy-musicbox-webclient
 -e git+https://github.com/mopidy/mopidy-soundcloud.git@faeb6710980f12b50b03bf78c1878be751b8e21a#egg=Mopidy-SoundCloud
 -e git+https://github.com/chatziko/mopidy-youtube@performance-improvements-3#egg=Mopidy-Youtube
-asn1crypto==0.22.0        # via cryptography
-backports-abc==0.4        # via tornado
-cachetools==1.1.6
-certifi==2015.4.28
-cffi==1.7.0               # via cryptography
-click==6.6                # via pip-tools
-cryptography==2.2.1
-decorator==4.0.10         # via validators
+asn1crypto==0.24.0        # via cryptography
+backports-abc==0.5        # via tornado
+cachetools==3.0.0
+certifi==2018.10.15
+cffi==1.11.5              # via cryptography
+chardet==3.0.4            # via requests
+click==7.0                # via pip-tools
+cryptography==2.4.1
+decorator==4.3.0          # via validators
 enum34==1.1.6             # via cryptography
 first==2.0.1              # via pip-tools
-idna==2.1                 # via cryptography
-ipaddress==1.0.16         # via cryptography, uritools
+idna==2.7                 # via cryptography, requests
+ipaddress==1.0.22         # via cryptography, uritools
 mopidy-local-sqlite==1.0.0
 mopidy-tachikoma==0.2.4
-mopidy==2.0.1
-ndg-httpsclient==0.4.2    # via requests
+mopidy==2.2.1
 pafy==0.5.4
 pip-tools==1.9.0
-pyasn1==0.1.9             # via requests
-pycparser==2.14           # via cffi
+pycparser==2.19           # via cffi
 pykka==1.2.1              # via mopidy, mopidy-local-sqlite, mopidy-tachikoma
-pyopenssl==17.5.0
-pysqlite==2.8.2
-requests[security]==2.10.0
+pyopenssl==18.0.0
+pysqlite==2.8.3
+requests[security]==2.20.1
 singledispatch==3.4.0.3   # via tornado
-six==1.10.0               # via cryptography, pip-tools, pyopenssl, singledispatch, slackclient, validators, websocket-client
-slackclient==1.0.1        # via mopidy-tachikoma
-tornado==4.4              # via mopidy
-uritools==1.0.2           # via mopidy-local-sqlite
-validators==0.10.3
-websocket-client==0.37.0  # via slackclient
+six==1.11.0               # via cryptography, pip-tools, pyopenssl, singledispatch, slackclient, validators, websocket-client
+slackclient==1.3.0        # via mopidy-tachikoma
+tornado==4.5.3            # via mopidy
+uritools==2.2.0           # via mopidy-local-sqlite
+urllib3==1.24.1           # via requests
+validators==0.12.3
+websocket-client==0.54.0  # via slackclient
 youtube-dl==2017.12.14

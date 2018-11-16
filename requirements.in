@@ -1,4 +1,4 @@
-Mopidy==2.0.1
+Mopidy>=2.0.1
 Mopidy-Local-SQLite
 
 # Switch Mopidy-Youtube back to normal once https://github.com/mopidy/mopidy-youtube/pull/46 is merged
@@ -12,7 +12,7 @@ pafy>=0.5.4
 pip-tools==1.9.0
 pysqlite
 requests[security]
-certifi==2015.4.28
+certifi==2018.10.15
 -e mopidy-cacher
 -e mopidy-musicbox-webclient
 
@@ -20,12 +20,12 @@ Mopidy-Tachikoma>=0.2.4
 
 # Fixes https://github.com/pyca/cryptography/issues/2750 and https://github.com/pyca/cryptography/pull/2826
 # Also https://github.com/pyca/cryptography/issues/3605
-cryptography>=1.9
+cryptography>=1.9.0
 
 # pyOpenSSL v16.0.0 was causing the python error AttributeError: 'module' object has no attribute 'SSL_ST_INIT' on
 # running mopidy. This version does not cause that, and prevents the user from having to manually pip
 # un-/re-install the pyOpenSSL module to get the jukebox to work.
 pyOpenSSL>=17.5.0
 
-youtube-dl>=2017.12.14
+youtube-dl==2017.12.14
 -e git+https://github.com/mopidy/mopidy-soundcloud.git@faeb6710980f12b50b03bf78c1878be751b8e21a#egg=Mopidy-SoundCloud
