@@ -1,7 +1,7 @@
 mopidy-jukebox
 ==============
 
-[![Build Status](https://travis-ci.org/palfrey/mopidy-jukebox.svg?branch=master)](https://travis-ci.org/palfrey/mopidy-jukebox)
+[![Build Status](https://travis-ci.org/lshift/mopidy-jukebox.svg?branch=master)](https://travis-ci.org/lshift/mopidy-jukebox)
 
 As the name suggests, it’s based off of [Mopidy](https://www.mopidy.com/). I went through the many and varied frontends for Mopidy, and found the [Mopidy-MusicBox-Webclient](https://github.com/pimusicbox/mopidy-musicbox-webclient), which got pretty close to what we needed for a frontend – it looks nice, the search is decent – but it is still designed towards the single-person use case. I’ve [forked it](https://github.com/palfrey/mopidy-musicbox-webclient/tree/nih) and started ripping parts out so it better fits our use (many people picking tracks, but they should all be by default just added to the end of the queue, not override the queue).
 
