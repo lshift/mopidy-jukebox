@@ -10,7 +10,7 @@
 -e git+https://github.com/chatziko/mopidy-youtube@performance-improvements-3#egg=Mopidy-Youtube
 asn1crypto==0.24.0        # via cryptography
 backports-abc==0.5        # via tornado
-cachetools==3.0.0
+cachetools==1.1.6
 certifi==2018.10.15
 cffi==1.11.5              # via cryptography
 chardet==3.0.4            # via requests

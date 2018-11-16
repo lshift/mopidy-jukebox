@@ -28,4 +28,6 @@ cryptography>=1.9.0
 pyOpenSSL>=17.5.0
 
 youtube-dl==2017.12.14
+# Use older version of cachetools as Mopidy-Youtube breaks otherwise;
+cachetools==1.1.6
 -e git+https://github.com/mopidy/mopidy-soundcloud.git@faeb6710980f12b50b03bf78c1878be751b8e21a#egg=Mopidy-SoundCloud
