@@ -198,8 +198,8 @@ DEPENDENCIES
   chef (~> 11.12)
   foodcritic
   kitchen-docker (~> 2.4)
-  rack (< 2)
+  nokogiri (< 1.10)
   test-kitchen (~> 1.9, >= 1.9.2)
 
 BUNDLED WITH
-   1.15.0
+   1.16.1

@@ -12,5 +12,5 @@ group :docker do
   gem 'kitchen-docker', '~> 2.4'
 end
 
-# Ruby 2.1 support
-gem 'rack', '<2'
+# Ruby 2.2 support
+gem 'nokogiri', '<1.10'
