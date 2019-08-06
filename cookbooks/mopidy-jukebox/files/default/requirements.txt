@@ -36,7 +36,7 @@ six==1.11.0               # via cryptography, pip-tools, pyopenssl, singledispat
 slackclient==1.3.0        # via mopidy-tachikoma
 tornado==4.5.3            # via mopidy
 uritools==2.2.0           # via mopidy-local-sqlite
-urllib3==1.24.1           # via requests
+urllib3==1.24.2           # via requests
 validators==0.12.3
 websocket-client==0.54.0  # via slackclient
 youtube-dl==2017.12.14
